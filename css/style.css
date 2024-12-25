@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'poppins';
+}
+
+.black {
+	color: #000;
+}
+
+.wrapper {
+	width: 400px;
+	height: 845px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	height: 240px;
+	background-image: url('/img/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	clip-path: inset(0);
+	padding: 25px 31px;
+}
+
+.btn {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	gap: 260px;
+}
